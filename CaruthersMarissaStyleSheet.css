@@ -1,0 +1,72 @@
+body {
+background-color: #E9F1FA;
+font-family: "Arial Black", lucida, monospace;
+}
+
+h1 {
+color: Red;
+text-align:center;
+}
+p {
+     font-size: 14px;
+}
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Red;
+}
+
+li.menu {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.menu a:hover {
+  background-color: #111;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid Red;
+  border-radius: 10px;
+}
+
+th, td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+th, tb {
+	padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+
